@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from os.path import join
 from re import finditer
 from argparse import ArgumentParser
@@ -46,7 +48,7 @@ def loadData(directory: str = "") -> dict:
 				files[remExt(fn)] = "\n".join(newData)
 
 				for i in findImports(data):
-					wrap(addExt(i), directory)
+					wrap(addExt(i))
 	
 	wrap()
 

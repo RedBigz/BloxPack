@@ -1,6 +1,5 @@
--- Put this script into ReplicatedStorage
--- Make sure it's named "BloxPack"
--- Must be a ModuleScript
+-- BloxPack by @RedBigz
+-- Refer to the README for usage instructions.
 
 return function (data)
 	local scriptExports = {}
