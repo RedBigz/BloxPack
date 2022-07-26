@@ -1,5 +1,5 @@
 -- Put this script into ReplicatedStorage
--- Make sure it's named "RPack"
+-- Make sure it's named "BloxPack"
 -- Must be a ModuleScript
 
 return function (data)
