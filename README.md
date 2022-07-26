@@ -1,7 +1,7 @@
 # BloxPack
 BloxPack is a tool for Roblox which packs a collection of lua files into a simple script.
 
-## Installation
+## Installing in your Roblox Game
 1. Create a ModuleScript in ReplicatedStorage named "BloxPack"
 ![Step 1](images/Step1.png)
 
@@ -36,9 +36,9 @@ To export a variable as the default, you would type the following into your scri
 ## Compiling a BloxPack Folder
 Type the following into your command line:
 ```powershell
-python bloxpack <DIRECTORY> -o <OUTPUT FILE>
+bloxpack <DIRECTORY> -o <OUTPUT FILE>
 ```
 An example:
 ```powershell
-python bloxpack ./examples/helloworld -o ./helloworld.lua
+bloxpack ./examples/helloworld -o ./helloworld.lua
 ```
